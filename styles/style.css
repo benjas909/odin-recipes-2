@@ -1,0 +1,38 @@
+body {
+  background-color: #F9EFDB;
+  font-family: monospace;
+  text-align: center;
+  color: #333333;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.recipe-list {
+  background-color: #9DBC98;
+}
+
+a {
+  color: #333333;
+  font-size: larger;
+}
+
+.ingredients {
+  font-size: larger;
+  background-color: #9DBC98;
+}
+
+.pic-desc {
+  background-color: #EBD9B4;
+}
+
+.footnote {
+  font-size: smaller;
+}
+
+
+.steps {
+  background-color: #638889;
+  color: #222222;
+}
