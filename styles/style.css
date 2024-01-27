@@ -3,6 +3,7 @@ body {
   font-family: monospace;
   text-align: center;
   color: #333333;
+  box-sizing: border-box;
 }
 
 .title {
@@ -11,6 +12,21 @@ body {
 
 .recipe-list {
   background-color: #9DBC98;
+  border: 4px dotted #638889;
+  padding: 12px;
+  width: 500px;
+  height: auto;
+  margin: 0px auto;
+
+}
+
+.ul-no-bullet {
+  border: 4px solid #638889;
+  width: auto;
+  padding: 8px;
+  margin: 0px 5px;
+  display: block;
+  list-style: none;
 }
 
 a {
