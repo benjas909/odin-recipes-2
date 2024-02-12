@@ -16,6 +16,7 @@ html {
 
 
 .recipe-list-card {
+  /* display: flex; */
   background-color: #9DBC98;
   border: 4px inset #F9EFDB;
   width: 1000px;
@@ -31,6 +32,8 @@ html {
   padding: 24px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .recipe-link {
@@ -38,7 +41,7 @@ html {
   background-color: #638889;
   border: 4px inset #9DBC98;
   /* height: 250px; */
-  /* width: 200px; */
+  flex-basis: 250px;
   padding-top: 24px;
   margin: 4px;
 }
